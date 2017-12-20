@@ -1,3 +1,174 @@
-page-home {
-
+ion-content{
+    background-image: url('data:image/jpeg;base64,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');
 }
+
+#custom-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100000;
+    width: 100%;
+    background-color: #FF3399;
+}
+
+.flb {
+    background-color: #ffb6c1;
+    height: 100%;
+    width: 100%;
+    animation: pulse 1s linear forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aligner-item {
+    max-width: 50%;
+}
+
+.Aligner-item--top {
+    align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+    align-self: flex-end;
+}
+
+#custom-overlay img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    animation: animation 3100ms linear infinite both;
+    animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+
+.animation-target {
+  -webkit-animation: animation 2800ms linear infinite both;
+  animation: animation 2800ms linear infinite both;
+}
+
+/* Generated with Bounce.js. Edit at https://goo.gl/B1bNzi */
+
+@-webkit-keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -500, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -500, 0, 0, 1); }
+  1.14% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.621, 1, 0, 0, 0, 0, 1, 0, -282.728, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.621, 1, 0, 0, 0, 0, 1, 0, -282.728, 0, 0, 1); }
+  2.29% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.829, 1, 0, 0, 0, 0, 1, 0, -149.309, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.829, 1, 0, 0, 0, 0, 1, 0, -149.309, 0, 0, 1); }
+  3.43% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.695, 1, 0, 0, 0, 0, 1, 0, -72.484, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.695, 1, 0, 0, 0, 0, 1, 0, -72.484, 0, 0, 1); }
+  4.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.477, 1, 0, 0, 0, 0, 1, 0, -31.997, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.477, 1, 0, 0, 0, 0, 1, 0, -31.997, 0, 0, 1); }
+  4.58% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.47, 1, 0, 0, 0, 0, 1, 0, -31.079, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.47, 1, 0, 0, 0, 0, 1, 0, -31.079, 0, 0, 1); }
+  6.76% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.146, 1, 0, 0, 0, 0, 1, 0, -1.766, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.146, 1, 0, 0, 0, 0, 1, 0, -1.766, 0, 0, 1); }
+  6.86% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.135, 1, 0, 0, 0, 0, 1, 0, -1.214, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.135, 1, 0, 0, 0, 0, 1, 0, -1.214, 0, 0, 1); }
+  9.01% { -webkit-transform: matrix3d(1, 0, 0, 0, -0.003, 1, 0, 0, 0, 0, 1, 0, 2.88, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, -0.003, 1, 0, 0, 0, 0, 1, 0, 2.88, 0, 0, 1); }
+  9.15% { -webkit-transform: matrix3d(1, 0, 0, 0, -0.007, 1, 0, 0, 0, 0, 1, 0, 2.886, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, -0.007, 1, 0, 0, 0, 0, 1, 0, 2.886, 0, 0, 1); }
+  11.23% { -webkit-transform: matrix3d(1, 0, 0, 0, -0.033, 1, 0, 0, 0, 0, 1, 0, 1.99, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, -0.033, 1, 0, 0, 0, 0, 1, 0, 1.99, 0, 0, 1); }
+  20.16% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.002, 1, 0, 0, 0, 0, 1, 0, 0.01, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.002, 1, 0, 0, 0, 0, 1, 0, 0.01, 0, 0, 1); }
+  23.45% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.001, 1, 0, 0, 0, 0, 1, 0, -0.003, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.001, 1, 0, 0, 0, 0, 1, 0, -0.003, 0, 0, 1); }
+  28.47% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); }
+  28.57% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); }
+  29.1% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -7.992, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -7.992, 0, 1); }
+  29.86% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, -15.312, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, -15.312, 0, 1); }
+  31.15% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, -19.275, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, -19.275, 0, 1); }
+  32.75% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -15.606, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -15.606, 0, 1); }
+  34.33% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -9.111, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -9.111, 0, 1); }
+  35.71% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -4.058, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -4.058, 0, 1); }
+  35.94% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -3.395, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -3.395, 0, 1); }
+  37.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.013, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.013, 0, 1); }
+  40.08% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.622, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.622, 0, 1); }
+  46.45% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.002, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.002, 0, 1); }
+  49.02% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.137, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.137, 0, 1); }
+  55.38% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  57.96% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.011, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.011, 0, 1); }
+  62.4% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.003, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.003, 0, 1); }
+  62.5% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.002, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.002, 0, 1); }
+  64.04% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.375, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.375, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  64.19% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.41, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.41, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  64.29% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.434, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.434, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  64.29% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.434, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.434, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  65.57% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.704, 1, 0, 0, 0, 0, 1, 0, 218.852, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.704, 1, 0, 0, 0, 0, 1, 0, 218.852, 0, 0, 1); }
+  65.82% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.747, 1, 0, 0, 0, 0, 1, 0, 257.135, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.747, 1, 0, 0, 0, 0, 1, 0, 257.135, 0, 0, 1); }
+  67.11% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.903, 1, 0, 0, 0, 0, 1, 0, 416.676, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.903, 1, 0, 0, 0, 0, 1, 0, 416.676, 0, 0, 1); }
+  67.36% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.921, 1, 0, 0, 0, 0, 1, 0, 439.293, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.921, 1, 0, 0, 0, 0, 1, 0, 439.293, 0, 0, 1); }
+  68.65% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.957, 1, 0, 0, 0, 0, 1, 0, 517.583, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.957, 1, 0, 0, 0, 0, 1, 0, 517.583, 0, 0, 1); }
+  68.9% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.956, 1, 0, 0, 0, 0, 1, 0, 526.138, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.956, 1, 0, 0, 0, 0, 1, 0, 526.138, 0, 0, 1); }
+  70.43% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.922, 1, 0, 0, 0, 0, 1, 0, 546.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.922, 1, 0, 0, 0, 0, 1, 0, 546.667, 0, 0, 1); }
+  72.62% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.864, 1, 0, 0, 0, 0, 1, 0, 528.816, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.864, 1, 0, 0, 0, 0, 1, 0, 528.816, 0, 0, 1); }
+  74.4% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 510.313, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 510.313, 0, 0, 1); }
+  76.59% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.832, 1, 0, 0, 0, 0, 1, 0, 498.826, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.832, 1, 0, 0, 0, 0, 1, 0, 498.826, 0, 0, 1); }
+  78.37% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.834, 1, 0, 0, 0, 0, 1, 0, 496.885, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.834, 1, 0, 0, 0, 0, 1, 0, 496.885, 0, 0, 1); }
+  84.52% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.84, 1, 0, 0, 0, 0, 1, 0, 500.078, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.84, 1, 0, 0, 0, 0, 1, 0, 500.078, 0, 0, 1); }
+  86.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 500.208, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 500.208, 0, 0, 1); }
+  92.49% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.994, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.994, 0, 0, 1); }
+  94.28% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.986, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.986, 0, 0, 1); }
+  98.21% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.997, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.997, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 500, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 500, 0, 0, 1); } 
+}
+
+@keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -500, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -500, 0, 0, 1); }
+  1.14% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.621, 1, 0, 0, 0, 0, 1, 0, -282.728, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.621, 1, 0, 0, 0, 0, 1, 0, -282.728, 0, 0, 1); }
+  2.29% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.829, 1, 0, 0, 0, 0, 1, 0, -149.309, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.829, 1, 0, 0, 0, 0, 1, 0, -149.309, 0, 0, 1); }
+  3.43% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.695, 1, 0, 0, 0, 0, 1, 0, -72.484, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.695, 1, 0, 0, 0, 0, 1, 0, -72.484, 0, 0, 1); }
+  4.54% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.477, 1, 0, 0, 0, 0, 1, 0, -31.997, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.477, 1, 0, 0, 0, 0, 1, 0, -31.997, 0, 0, 1); }
+  4.58% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.47, 1, 0, 0, 0, 0, 1, 0, -31.079, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.47, 1, 0, 0, 0, 0, 1, 0, -31.079, 0, 0, 1); }
+  6.76% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.146, 1, 0, 0, 0, 0, 1, 0, -1.766, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.146, 1, 0, 0, 0, 0, 1, 0, -1.766, 0, 0, 1); }
+  6.86% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.135, 1, 0, 0, 0, 0, 1, 0, -1.214, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.135, 1, 0, 0, 0, 0, 1, 0, -1.214, 0, 0, 1); }
+  9.01% { -webkit-transform: matrix3d(1, 0, 0, 0, -0.003, 1, 0, 0, 0, 0, 1, 0, 2.88, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, -0.003, 1, 0, 0, 0, 0, 1, 0, 2.88, 0, 0, 1); }
+  9.15% { -webkit-transform: matrix3d(1, 0, 0, 0, -0.007, 1, 0, 0, 0, 0, 1, 0, 2.886, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, -0.007, 1, 0, 0, 0, 0, 1, 0, 2.886, 0, 0, 1); }
+  11.23% { -webkit-transform: matrix3d(1, 0, 0, 0, -0.033, 1, 0, 0, 0, 0, 1, 0, 1.99, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, -0.033, 1, 0, 0, 0, 0, 1, 0, 1.99, 0, 0, 1); }
+  20.16% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.002, 1, 0, 0, 0, 0, 1, 0, 0.01, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.002, 1, 0, 0, 0, 0, 1, 0, 0.01, 0, 0, 1); }
+  23.45% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.001, 1, 0, 0, 0, 0, 1, 0, -0.003, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.001, 1, 0, 0, 0, 0, 1, 0, -0.003, 0, 0, 1); }
+  28.47% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); }
+  28.57% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.001, 0, 0, 1); }
+  29.1% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -7.992, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -7.992, 0, 1); }
+  29.86% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, -15.312, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, -15.312, 0, 1); }
+  31.15% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, -19.275, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, -19.275, 0, 1); }
+  32.75% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -15.606, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -15.606, 0, 1); }
+  34.33% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -9.111, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -9.111, 0, 1); }
+  35.71% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -4.058, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -4.058, 0, 1); }
+  35.94% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -3.395, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -3.395, 0, 1); }
+  37.51% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.013, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.013, 0, 1); }
+  40.08% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.622, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -1.622, 0, 1); }
+  46.45% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.002, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.002, 0, 1); }
+  49.02% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.137, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.137, 0, 1); }
+  55.38% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  57.96% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.011, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.011, 0, 1); }
+  62.4% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.003, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.003, 0, 1); }
+  62.5% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.002, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.002, 0, 1); }
+  64.04% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.375, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.375, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  64.19% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.41, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.41, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  64.29% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.434, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.434, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  64.29% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.434, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.434, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  65.57% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.704, 1, 0, 0, 0, 0, 1, 0, 218.852, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.704, 1, 0, 0, 0, 0, 1, 0, 218.852, 0, 0, 1); }
+  65.82% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.747, 1, 0, 0, 0, 0, 1, 0, 257.135, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.747, 1, 0, 0, 0, 0, 1, 0, 257.135, 0, 0, 1); }
+  67.11% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.903, 1, 0, 0, 0, 0, 1, 0, 416.676, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.903, 1, 0, 0, 0, 0, 1, 0, 416.676, 0, 0, 1); }
+  67.36% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.921, 1, 0, 0, 0, 0, 1, 0, 439.293, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.921, 1, 0, 0, 0, 0, 1, 0, 439.293, 0, 0, 1); }
+  68.65% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.957, 1, 0, 0, 0, 0, 1, 0, 517.583, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.957, 1, 0, 0, 0, 0, 1, 0, 517.583, 0, 0, 1); }
+  68.9% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.956, 1, 0, 0, 0, 0, 1, 0, 526.138, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.956, 1, 0, 0, 0, 0, 1, 0, 526.138, 0, 0, 1); }
+  70.43% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.922, 1, 0, 0, 0, 0, 1, 0, 546.667, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.922, 1, 0, 0, 0, 0, 1, 0, 546.667, 0, 0, 1); }
+  72.62% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.864, 1, 0, 0, 0, 0, 1, 0, 528.816, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.864, 1, 0, 0, 0, 0, 1, 0, 528.816, 0, 0, 1); }
+  74.4% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 510.313, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 510.313, 0, 0, 1); }
+  76.59% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.832, 1, 0, 0, 0, 0, 1, 0, 498.826, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.832, 1, 0, 0, 0, 0, 1, 0, 498.826, 0, 0, 1); }
+  78.37% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.834, 1, 0, 0, 0, 0, 1, 0, 496.885, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.834, 1, 0, 0, 0, 0, 1, 0, 496.885, 0, 0, 1); }
+  84.52% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.84, 1, 0, 0, 0, 0, 1, 0, 500.078, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.84, 1, 0, 0, 0, 0, 1, 0, 500.078, 0, 0, 1); }
+  86.31% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 500.208, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 500.208, 0, 0, 1); }
+  92.49% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.994, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.994, 0, 0, 1); }
+  94.28% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.986, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.986, 0, 0, 1); }
+  98.21% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.997, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 499.997, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 500, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0.839, 1, 0, 0, 0, 0, 1, 0, 500, 0, 0, 1); } 
+}
+
+

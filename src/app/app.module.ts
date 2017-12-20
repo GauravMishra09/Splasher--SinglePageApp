@@ -1,11 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-
+import { Device } from '@ionic-native/device'; // To get mobile Information
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { MomentModule } from 'angular2-moment';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,7 @@ import { HomePage } from '../pages/home/home';
     HomePage
   ],
   imports: [
-    BrowserModule,
+      BrowserModule, HttpModule, MomentModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -22,7 +24,7 @@ import { HomePage } from '../pages/home/home';
     HomePage
   ],
   providers: [
-    StatusBar,
+      StatusBar, Device,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
